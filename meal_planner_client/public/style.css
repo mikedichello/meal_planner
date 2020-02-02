@@ -1,0 +1,64 @@
+* {
+    --header-footer-color: rgb(221, 72, 72);
+    --main-bg-color: rgb(188, 230, 125);
+    --article-bg-color: rgb(118, 156, 60);
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    font-size: 24px;
+    color: rgb(83, 14, 14);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: var(--header-footer-color);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+      
+}
+
+.flex-main {
+    display: flex;
+    flex: 1;    
+
+}
+
+.flex-nav{
+    background-color: var(--main-bg-color);
+    padding-top: 3rem;
+    flex: 1 1 5rem
+}
+
+.flex-article{
+    background-color: var(--article-bg-color);
+    padding-top: 3rem;
+    flex: 3 3 ;
+}
+
+.flex-form{
+    background-color: var(--main-bg-color);
+    padding-top: 3rem;
+    flex: 1 1 5rem
+}
+
+.flex-footer {
+    background-color: var(--header-footer-color);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card {
+    border: 4px solid white;
+    margin: 10px;
+}
+
+@media all and (max-widht: 740px) {
+    main{
+        flex-direction: column;
+    }
+}

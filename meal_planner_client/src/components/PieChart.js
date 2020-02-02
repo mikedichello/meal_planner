@@ -9,7 +9,7 @@ class PieChart extends Component {
     }  
 
     getData = () =>{
-        fetch(`http://localhost:3000/meals/${this.props.name}`)
+        fetch(`http://localhost:3000/meals/1}`)
             .then(response => response.json())
             .then(json => this.prepareData(json))
             .then(data => this.createChart(data))
@@ -56,7 +56,7 @@ class PieChart extends Component {
     render () {
     return (
         <>
-        <h1>{meal.name}</h1>
+        <h1>meals</h1>
         <canvas id="meals" width="300" height="100"></canvas>
         </>
     )
