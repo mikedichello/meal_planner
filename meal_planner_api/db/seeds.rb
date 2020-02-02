@@ -5,13 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-days = Day.create([
-    {date: Date.strptime("01/29/2020", "%m/%d/%Y")},
-    {date: Date.strptime("01/30/2020", "%m/%d/%Y")},
-    {date: Date.strptime("01/31/2020", "%m/%d/%Y")}
-])
-
 meals = Meal.create([
     {
        name: Faker::Food.dish,
@@ -19,8 +12,7 @@ meals = Meal.create([
        calories: 450,
        carbs_g: 40,
        fat_g: 20,
-       protein_g: 27.5,
-       day_id: 1
+       protein_g: 27.5
     },
     {
        name: Faker::Food.dish,
@@ -28,8 +20,7 @@ meals = Meal.create([
        calories: 600,
        carbs_g: 45,
        fat_g: 20,
-       protein_g: 60,
-       day_id: 1
+       protein_g: 60
     },
     {
        name: Faker::Food.dish,
@@ -37,8 +28,7 @@ meals = Meal.create([
        calories: 517,
        carbs_g: 40,
        fat_g: 33,
-       protein_g: 27.5,
-       day_id: 1
+       protein_g: 27.5
     },
     {
        name: Faker::Food.dish,
@@ -46,8 +36,7 @@ meals = Meal.create([
        calories: 450,
        carbs_g: 40,
        fat_g: 20,
-       protein_g: 27.5,
-       day_id: 2
+       protein_g: 27.5
     },
     {
        name: Faker::Food.dish,
@@ -55,8 +44,7 @@ meals = Meal.create([
        calories: 600,
        carbs_g: 45,
        fat_g: 20,
-       protein_g: 60,
-       day_id: 2
+       protein_g: 60
     },
     {
        name: Faker::Food.dish,
@@ -64,8 +52,7 @@ meals = Meal.create([
        calories: 517,
        carbs_g: 40,
        fat_g: 33,
-       protein_g: 27.5,
-       day_id: 2
+       protein_g: 27.5
     },
     {
        name: Faker::Food.dish,
@@ -73,8 +60,7 @@ meals = Meal.create([
        calories: 450,
        carbs_g: 40,
        fat_g: 20,
-       protein_g: 27.5,
-       day_id: 3
+       protein_g: 27.5
     },
     {
        name: Faker::Food.dish,
@@ -82,8 +68,7 @@ meals = Meal.create([
        calories: 600,
        carbs_g: 45,
        fat_g: 20,
-       protein_g: 60,
-       day_id: 3
+       protein_g: 60
     },
     {
        name: Faker::Food.dish,
@@ -91,8 +76,6 @@ meals = Meal.create([
        calories: 517,
        carbs_g: 40,
        fat_g: 33,
-       protein_g: 27.5,
-       day_id: 3
-    },
-
+       protein_g: 27.5
+    }
 ])

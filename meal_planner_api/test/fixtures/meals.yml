@@ -3,6 +3,7 @@
 one:
   name: MyString
   description: MyString
+  ingredients: MyString
   calories: 1
   carbs_g: 1
   fat_g: 1
@@ -11,6 +12,7 @@ one:
 two:
   name: MyString
   description: MyString
+  ingredients: MyString
   calories: 1
   carbs_g: 1
   fat_g: 1

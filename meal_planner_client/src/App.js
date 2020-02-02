@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import BarChart from './components/BarChart.js'
+import PieChart from './components/PieChart'
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <BarChart />
+        <PieChart />
       </div>
     );
   }
