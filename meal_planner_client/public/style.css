@@ -73,8 +73,8 @@ h2 p {
 }
 
 
-@media all and (max-widht: 740px) {
-    main{
+@media all and (max-width: 740px) {
+    .flex-main{
         flex-direction: column;
     }
 }
