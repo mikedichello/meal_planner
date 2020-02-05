@@ -81,6 +81,12 @@ class PieChart extends Component {
                     animateScale: true,
                     
                     duration: 2000
+                },
+                legend: {
+                    labels: {
+                        fontColor: 'white',
+                        fontSize: 16
+                    }
                 }
             }
             
