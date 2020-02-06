@@ -9,6 +9,7 @@
     margin: 2px;
     box-sizing: border-box;
     font-family: var(--primary-font);
+    
 
 }
 
@@ -28,6 +29,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     border: 1px solid var(red);
+    
 
       
 }
@@ -52,21 +54,15 @@
 
 .flex-form{
     background-color: var(--light-main);
-    padding-top: 10rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
     flex: 1 1 5rem
 }
-
-.flex-footer {
-    background-color: var(--light-main);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    font-size: 14px;
+h1 {
+    color: Var(--dark-main);
+    -webkit-text-stroke: 2px var(--yellow);
 }
 
-.card {
-    border: 4px solid white;
-    margin: 10px;
-}
 
 h2 h3 p {
     font-family: var(--secondary-font);
@@ -80,6 +76,35 @@ p {
 label {
     margin: 2px;
 }
+
+h2 {
+    font-family: var(--secondary-font);
+    color: var(--red);
+    margin: 20px;
+}
+
+.flex-footer {
+    background-color: var(--light-main);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height: 25px;
+    font-family: var(--secondary-font);
+    background-color: var(--green);
+    text-decoration: none;
+}
+
+.form-title {
+    color: var(--red);
+    -webkit-text-stroke: 1px black;
+}
+
 @media all and (max-width: 740px) {
     .flex-main{
         flex-direction: column;

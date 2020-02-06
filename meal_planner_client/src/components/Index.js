@@ -99,7 +99,8 @@ class Index extends Component {
             <>
                 <div className="flex-container">
                     <header className="flex-header">
-                        <h1>Pi Charter</h1>
+                        <h1>Pie Charter</h1>
+                        <h2>A Meal Macronutrient-Logging App</h2>
                     </header>
                     <main className="flex-main">
                         <nav className="flex-nav">
@@ -116,14 +117,13 @@ class Index extends Component {
                                 <h1>{this.state.chosenMeal.name}</h1>
                                 <h2>{this.state.chosenMeal.calories} Calories</h2>
                                 <PieChart meal={this.state.chosenMeal}/>
-                                <h3>Description:</h3>
                                 <p>{this.state.chosenMeal.description}</p>
                               </>
                             }
                             
                         </article>
                         <div className="flex-form">
-                            <h3>Add New Meal</h3>
+                            <h3 className="form-title">Add New Meal</h3>
                         <form onSubmit={this.handleSubmit}>
                             <label htmlFor="name">Name:  </label>
                             <input type="text" value={this.state.formInputs.name} onChange={this.handleChange} id="name" />

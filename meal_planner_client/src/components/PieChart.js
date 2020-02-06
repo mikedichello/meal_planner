@@ -84,8 +84,7 @@ class PieChart extends Component {
                 },
                 legend: {
                     labels: {
-                        fontColor: 'white',
-                        fontSize: 16
+                        fontColor: 'white'                        
                     }
                 }
             }
