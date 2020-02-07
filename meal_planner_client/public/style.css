@@ -41,9 +41,15 @@
 }
 
 .flex-nav{
+    list-style: none;
     background-color: var(--light-main);
     padding-top: 3rem;
     flex: 1 1 5rem
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .flex-article{
@@ -91,6 +97,11 @@ h2 {
 }
 
 input[type=submit] {
+    border: none;
+    color: var(--green);
+    -webkit-text-stroke: 1px black;
+    font-weight: 900;
+    font-size: 24px;
     margin-top: 30px;
     height: 50px;
     width: 150px;
@@ -101,6 +112,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+    cursor: pointer;
     border-radius: 18px;
     background: #747474;
     box-shadow: inset 10px 10px 20px #4a4a4a, 
