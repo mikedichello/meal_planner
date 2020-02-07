@@ -39,6 +39,9 @@ Pie Charter is a meal macronutrient log app. The user can input the meal macronu
 ##### Progress day 2
 ![mealTrackerDay14](https://github.com/mikedichello/meal_planner/blob/master/screenshots/mealTrackerDay2.gif)
 
+##### Final Design
+<img src="https://github.com/mikedichello/meal_planner/blob/master/screenshots/finaldesign.png"/>
+
 
 ## Future Goals
 * Add another table to the database so that you can do a daily nutrition tracker as well. add meals to the day so that you can see daily caloric and macronutrient intake.
