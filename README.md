@@ -1,7 +1,7 @@
 # Pie Charter
 Pie Charter is a meal macronutrient log app. The user can input the meal macronutrients (Calories, Net Grams of Carbs, Fat, and Protein) and recall a quick visual overview of meal.
 
-![mealTrackerDay14](https://github.com/mikedichello/meal_planner/blob/master/screenshots/Final2.gif)
+![Final Gif](https://github.com/mikedichello/meal_planner/blob/master/screenshots/Final.gif)
 
 
 ## Project Link
